@@ -1,5 +1,20 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <geoheydemo />
   </div>
 </template>
+<script>
+	import geoheydemo from '@/components/geoheydemo.vue'
+
+	export default {
+  name: 'about',
+  components: {
+    geoheydemo
+  }
+}
+</script>
+<style type="text/css">
+	.about {
+		
+	}
+</style>
