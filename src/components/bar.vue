@@ -35,7 +35,7 @@ export default {
           data:[5,10,20,36]
         },{
           name:'利润',
-          type:'bar',
+          type:'line',
           data:[50,100,200,360]
         }]
       }

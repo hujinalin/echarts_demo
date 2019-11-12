@@ -5,6 +5,7 @@
     <beijing chart-type="北京 map echarts"/>
     <remix chart-type="remix echarts"/>
     <pie chart-type="pie echarts"/>
+    <ring chart-type="ring echarts, belong pie"/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import china from '@/components/china.vue'
 import beijing from '@/components/beijing.vue'
 import remix from '@/components/remix.vue'
 import pie from '@/components/pie.vue'
+import ring from '@/components/ring.vue'
 
 export default {
   name: 'home',
@@ -24,6 +26,7 @@ export default {
     beijing,
     remix,
     pie,
+    ring,
   }
 }
 </script>
