@@ -17,7 +17,7 @@ export default {
     initEcharts(){
       let echart = this.$echarts.init(this.$refs.chart);
       let options = {
-        title: {text:'收入 VS 支出',subtext:'漏斗图'},
+        title: {text:'漏斗图',subtext:'漏斗图'},
         tooltip: {
           trigger: 'item',
         },
