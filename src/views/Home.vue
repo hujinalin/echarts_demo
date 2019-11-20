@@ -9,6 +9,7 @@
     <scatter chart-type="散点图scatter echarts"/>
     <bubble chart-type="气泡图bubble echarts"/>
     <radar chart-type="雷达图radar echarts"/>
+    <funnel chart-type="漏斗图funnel echarts"/>
   </div>
 </template>
 
@@ -23,6 +24,7 @@ import ring from '@/components/ring.vue'
 import scatter from '@/components/scatter.vue'
 import bubble from '@/components/bubble.vue'
 import radar from '@/components/radar.vue'
+import funnel from '@/components/funnel.vue'
 
 export default {
   name: 'home',
@@ -36,6 +38,7 @@ export default {
     scatter,
     bubble,
     radar,
+    funnel,
   }
 }
 </script>
