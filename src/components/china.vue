@@ -61,6 +61,7 @@ export default {
           {
             name: '年降水（ml）', // 浮动框的标题
             type: 'map',
+            mapType: 'china',
             geoIndex: 0,
             data: [
                 {

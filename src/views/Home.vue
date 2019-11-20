@@ -1,11 +1,14 @@
 <template>
   <div class="home">
-    <bar chart-type="bar echarts"/>
+    <bar chart-type="柱状，线形bar line echarts"/>
     <china chart-type="中国 map echarts"/>
     <beijing chart-type="北京 map echarts"/>
     <remix chart-type="remix echarts"/>
-    <pie chart-type="pie echarts"/>
-    <ring chart-type="ring echarts, belong pie"/>
+    <pie chart-type="饼图pie echarts"/>
+    <ring chart-type="组合饼图ring echarts, belong pie"/>
+    <scatter chart-type="散点图scatter echarts"/>
+    <bubble chart-type="气泡图bubble echarts"/>
+    <radar chart-type="雷达图radar echarts"/>
   </div>
 </template>
 
@@ -17,6 +20,9 @@ import beijing from '@/components/beijing.vue'
 import remix from '@/components/remix.vue'
 import pie from '@/components/pie.vue'
 import ring from '@/components/ring.vue'
+import scatter from '@/components/scatter.vue'
+import bubble from '@/components/bubble.vue'
+import radar from '@/components/radar.vue'
 
 export default {
   name: 'home',
@@ -27,6 +33,9 @@ export default {
     remix,
     pie,
     ring,
+    scatter,
+    bubble,
+    radar,
   }
 }
 </script>
